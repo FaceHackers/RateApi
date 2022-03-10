@@ -41,7 +41,7 @@
 ##### method: POST
 
  Parameter | type |  Description |
-| --- | --- |  --- |  --- |
+| --- | --- | --- |
 | name | string | 姓名
 | email | string | 信箱
 | password | string | 密碼
@@ -49,7 +49,7 @@
 
 ##### Response(JSON)
  Parameter | type |  Description |
-| --- | --- |  --- |  --- |
+| --- | --- |  --- |
 | code | int | (1=成功, 0= 失敗)
 | message | string | 訊息
 
@@ -60,13 +60,13 @@
 ##### method: POST
      
  Parameter | type |  Description |
-| --- | --- |  --- |  --- |
+| --- | --- |  --- |
 | email | string | 信箱
 | password | string | 密碼
 
 ##### Response(JSON)
  Parameter | type |  Description |
-| --- | --- |  --- |  --- |
+| --- | --- |  --- |
 | code | int | (1=成功, 0= 失敗)
 | access_token | string | JWT Token
 | expires_in | int | JWT 有效時間(單位秒)
@@ -79,7 +79,7 @@
 ##### HTTP Header ：Bearer JWT Token
 
  Parameter | type |  Description |
-| --- | --- |  --- |  --- |
+| --- | --- |  ---  |
 | from | string | 貨幣代碼(Ex: from=USD, to=TWD, 美金換算台幣)
 | to | string | 貨幣代碼(Ex: from=TWD, to=USD, 台幣換算美金)
 | money | int | 金額
